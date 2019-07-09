@@ -1,60 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /* COMMON */
 body {
+  width: 100vw;
+  height: 100vh;
 }
 .page {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+      -180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.35) 50%
+    ),
+    url("../images/anonymous-server-background.jpg") center;
+  background-size: cover;
 }
 
 /* HEADER */
 .page__header {
-
 }
 .page__header {
-
 }
 .nav-trigger {
-
 }
-.nav-close,.nav-trigger {
-
+.nav-close,
+.nav-trigger {
 }
-.nav-close{
-
+.nav-close {
 }
 
 /* MENU */
 .nav {
-
 }
 .nav__items {
-
 }
 .nav__item {
 }
 .nav__link {
-
 }
-
-
 
 /* MAIN */
 .page__main {
-
 }
 .page__wrapper {
- 
 }
 .page__main-title {
-
 }
 
 /* FOOTER */
 .page__footer {
-
- 
 }
 .page__footer {
 }
 .page__footer-copy {
-
 }
