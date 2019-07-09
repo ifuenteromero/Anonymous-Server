@@ -8,6 +8,8 @@
 body {
   width: 100vw;
   height: 100vh;
+  color: white;
+  font-family: "Roboto Slab", serif;
 }
 .page {
   height: 100%;
@@ -67,14 +69,17 @@ body {
   justify-content: center;
 }
 .nav__items {
- list-style: none;
+  list-style: none;
+  margin: 0 30px;
 }
 .nav__item {
   text-align: center;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 .nav__link {
   text-decoration: none;
-  color:white;
+  color: inherit;
 }
 
 /* MAIN */
@@ -92,11 +97,30 @@ body {
 .page__footer {
   z-index: 1;
   height: 10%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page__footer {
 }
 .page__footer-copy {
 }
-.hidden{
+.hidden {
   visibility: hidden;
+}
+
+@media all and (min-width: 768px) {
+  .nav__items {
+    margin: 0 60px;
+    max-width: 990px;
+  }
+  .nav__item {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .nav__item {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
 }
