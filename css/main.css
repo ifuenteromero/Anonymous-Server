@@ -26,12 +26,21 @@ body {
 }
 .page__header {
 }
-.nav-trigger {
+.nav-trigger,
+.nav-close {
+  width: 45px;
+  height: 45px;
+  color: transparent;
+  background: no-repeat center center #414141;
+  border-radius: 5px;
+  border:1px solid #414141;
+  cursor: pointer;
 }
-.nav-close,
 .nav-trigger {
+  background-image: url("../images/ico-menu.svg");
 }
 .nav-close {
+  background-image: url("../images/ico-close.svg");
 }
 
 /* MENU */
