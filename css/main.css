@@ -65,6 +65,11 @@ body {
   right: 16px;
 }
 
+.nav-trigger:hover,.nav-close:hover{
+  background-color: #212121;
+  border: 1px solid #212121;
+}
+
 /* MENU */
 .nav {
   height: 100%;
@@ -110,8 +115,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.page__footer {
-}
+
 .page__footer-copy {
   background-color:#414141;
   text-align: center;
